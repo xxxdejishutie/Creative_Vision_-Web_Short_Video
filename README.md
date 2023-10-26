@@ -1,1 +1,3 @@
 # Creative_Vision_-Web_Short_Video
+后端代码在back_end_code文件夹中
+前端代码在front_end_code文件夹中
