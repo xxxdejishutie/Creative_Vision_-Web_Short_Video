@@ -1,6 +1,8 @@
 package main
 
 import (
+	"chuanshu/KERNEL"
+	"chuanshu/NET"
 	"context"
 	"fmt"
 
@@ -80,7 +82,10 @@ func main() {
 	publicAccessURL := storage.MakePublicURL(domain, key)
 	fmt.Println(publicAccessURL)
 
-	ne := MyNet{}
-	ne.netinit()
+	ke := KERNEL.Kernel{}
+	ke.DosomSething("adsafs")
+	ne := NET.MyNet{}
+	ne.Netinit()
+
 	select {}
 }
